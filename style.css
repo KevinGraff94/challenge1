@@ -6,8 +6,8 @@ main{
 
 body{
     position: relative;
-    width: 1440px;
-    height: 1024px;
+    width: auto;
+    height: auto;
     background: #F3F5FC;
 }
 
@@ -67,7 +67,7 @@ body{
     width: 336px;
     height: 58px;
     font-family: 'Inter';
-    font-style: normal;
+    font-style: bold;
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
@@ -78,6 +78,25 @@ body{
     /* Inside auto layout */
     flex: none;
     order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.otro-texto{
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    /* Gray/gray-400 */
+    color: #495057;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
     align-self: stretch;
     flex-grow: 0;
 }
